@@ -1,13 +1,6 @@
 # DFIR(Forensics_and_incident_response)
 Bilgisayar sistemlerinde gerçekleşen olayları araştıran, dijital verilerin korunması, kötü niyetli faaliyetleri tespit eden ve olası tehditlere hızlı bir şekilde yanıt veren dijital adli bilişim ve olay müdahalesi alanlarını kapsayan bir disiplindir. 
-Dijital adli bilişim, dijital verilerin adli inceleme sürecinde toplanması, korunması ve analiz edilmesiyle ilgilidir. Dijital veriler, dijital cihazlarda veya dijital ortamlarda saklanan tüm verileri kapsar. 
-Bu disiplin, adli makamların, suçlu veya suçluların belirlenmesi için dijital delilleri analiz etmesine yardımcı olur.
-Olay Yanıtı, dijital veri güvenliği açısından önemli bir disiplindir. Bu disiplin, bir güvenlik olayı olduğunda tepki vermek için hazırlıklı olmayı içerir. 
-Olay yanıtı, bir güvenlik ihlali olduğunda hızlı bir şekilde müdahale ederek zararın en aza indirilmesini ve sorunun çözülmesini sağlar ve siber saldırılara karşı örgütlerin veya kurumların savunmasını güçlendirir.
-DFIR’nin bir diğer önemli bölümü de Dijital Delillerin analiz edilmesidir. Dijital deliller, bir suçun işlendiğine veya bir olayın gerçekleştiğine dair kanıtlar sağlar.
-Dijital deliller, bir suçlunun kimliğini tespit etmek, mahkemelerde kullanılmak üzere kanıt toplamak veya bir olayın nedenlerini belirlemek için kullanılabilir. Bu disiplin, suçluların tespiti ve cezalandırılması için kanıtların toplanmasına yardımcı olur.
-Veri Kurtarma da DFIR’nin önemli bir parçasıdır. Veri kurtarma işlemi, cihazların çökmesi veya verilerin yanlışlıkla silinmesi gibi durumlarda gerçekleşebilir. 
-Veri kurtarma işlemi, hasar görmüş veya silinmiş verilerin geri yüklenmesini sağlar. Bu disiplin, veri kaybını önlemek ve hasar görmüş verilerin kurtarılmasına yardımcı olur.
+Dijital adli bilişim, dijital verilerin adli inceleme sürecinde toplanması, korunması ve analiz edilmesiyle ilgilidir. Dijital veriler, dijital cihazlarda veya dijital ortamlarda saklanan tüm verileri kapsar. Bu disiplin, adli makamların, suçlu veya suçluların belirlenmesi için dijital delilleri analiz etmesine yardımcı olur. Olay Yanıtı, dijital veri güvenliği açısından önemli bir disiplindir. Bu disiplin, bir güvenlik olayı olduğunda tepki vermek için hazırlıklı olmayı içerir. Olay yanıtı, bir güvenlik ihlali olduğunda hızlı bir şekilde müdahale ederek zararın en aza indirilmesini ve sorunun çözülmesini sağlar ve siber saldırılara karşı örgütlerin veya kurumların savunmasını güçlendirir. DFIR’nin bir diğer önemli bölümü de Dijital Delillerin analiz edilmesidir. Dijital deliller, bir suçun işlendiğine veya bir olayın gerçekleştiğine dair kanıtlar sağlar. Dijital deliller, bir suçlunun kimliğini tespit etmek, mahkemelerde kullanılmak üzere kanıt toplamak veya bir olayın nedenlerini belirlemek için kullanılabilir. Bu disiplin, suçluların tespiti ve cezalandırılması için kanıtların toplanmasına yardımcı olur. Veri Kurtarma da DFIR’nin önemli bir parçasıdır. Veri kurtarma işlemi, cihazların çökmesi veya verilerin yanlışlıkla silinmesi gibi durumlarda gerçekleşebilir. Veri kurtarma işlemi, hasar görmüş veya silinmiş verilerin geri yüklenmesini sağlar. Bu disiplin, veri kaybını önlemek ve hasar görmüş verilerin kurtarılmasına yardımcı olur.
 Sızma Testleri de DFIR’nin bir bölümüdür. Bu, kurumların dijital varlıklarının ne kadar güvende olduğunu ölçmek ve herhangi bir açığı tespit etmek için yapılır.
 
 *DFIR'A ihtiyaç duyulmasının nedenleri*
@@ -42,12 +35,15 @@ DFIR sürecinde, delillerin doğru bir şekilde toplanması ve korunması kritik
 DFIR alanı sürekli olarak gelişen bir alandır. Yeni tehditler, saldırı yöntemleri ve teknolojik gelişmeler ortaya çıktıkça, DFIR uzmanları da kendilerini güncel tutmalıdır. Sürekli eğitim ve teknoloji takibi, güncel tehditleri anlamak, yeni analiz tekniklerini öğrenmek ve en son araştırma ve araçları kullanmak için önemlidir. DFIR uzmanları, sektördeki gelişmeleri yakından takip etmeli, katılım sağladıkları konferanslar ve eğitimler aracılığıyla bilgilerini güncellemelidir.
 
 7) İşbirliği ve Koordinasyon:
+8) 
 DFIR çalışmaları genellikle çok disiplinli ve çok paydaşlı bir süreçtir. Bir olaya yanıt verirken, farklı ekipler, kurumlar veya ajanslar arasında işbirliği ve koordinasyon önemlidir. İşbirliği, bilgi paylaşımını, tecrübe ve uzmanlık birikimini artırırken, etkili bir olay yanıtı için de gereklidir. DFIR ekipleri, doğru iletişim kanallarını kurmalı, bilgileri paylaşmalı ve birlikte çalışarak hızlı ve etkili bir şekilde olayı çözümlemelidir.
 
-8) Etik İlkeler ve Mahremiyet
+9) Etik İlkeler ve Mahremiyet:
+   
 DFIR çalışmaları, hassas ve kişisel verilerin bulunduğu sistemleri incelediği için etik ilkelerin ve mahremiyetin korunması önemlidir. DFIR uzmanları, etik standartlara uymalı, verilere izinsiz erişimden kaçınmalı ve veri gizliliği ve mahremiyetini korumak için gereken önlemleri almalıdır. Ayrıca, yasal gerekliliklere uymak ve kişisel bilgilerin yasalara uygun şekilde işlenmesini sağlamak da önemlidir.
 
-9) Süreç ve Dökümantasyon Yönetimi
-DFIR çalışmaları sırasında süreç ve dökümantasyon yönetimi de önemli bir prensiptir. İnceleme sürecinin adımları, yapılan işlemler, alınan kararlar ve elde edilen sonuçlar ayrıntılı bir şekilde belgelenmelidir. Bu, ilerideki adli süreçlerde kullanılacak olan delillerin güvenilirliğini sağlarken, takip edilebilirlik ve tekrarlanabilirlik açısından da önemlidir. Süreç ve dökümantasyon yönetimi, DFIR çalışmalarının organize ve etkin bir şekilde yürütülmesini sağlar.
+10) Süreç ve Dökümantasyon Yönetimi:
 
+Süreç ve dökümantasyon yönetimi, DFIR çalışmalarının organize ve etkin bir şekilde yürütülmesini sağlayan önemli bir prensiptir.
+İnceleme sürecinin adımları, yapılan işlemler, alınan kararlar ve elde edilen sonuçlar ayrıntılı bir şekilde belgelenmelidir.  
 
