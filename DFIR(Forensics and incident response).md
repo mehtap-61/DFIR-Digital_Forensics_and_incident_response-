@@ -35,14 +35,14 @@ DFIR sürecinde, delillerin doğru bir şekilde toplanması ve korunması kritik
 DFIR alanı sürekli olarak gelişen bir alandır. Yeni tehditler, saldırı yöntemleri ve teknolojik gelişmeler ortaya çıktıkça, DFIR uzmanları da kendilerini güncel tutmalıdır. Sürekli eğitim ve teknoloji takibi, güncel tehditleri anlamak, yeni analiz tekniklerini öğrenmek ve en son araştırma ve araçları kullanmak için önemlidir. DFIR uzmanları, sektördeki gelişmeleri yakından takip etmeli, katılım sağladıkları konferanslar ve eğitimler aracılığıyla bilgilerini güncellemelidir.
 
 7) İşbirliği ve Koordinasyon:
-8) 
+
 DFIR çalışmaları genellikle çok disiplinli ve çok paydaşlı bir süreçtir. Bir olaya yanıt verirken, farklı ekipler, kurumlar veya ajanslar arasında işbirliği ve koordinasyon önemlidir. İşbirliği, bilgi paylaşımını, tecrübe ve uzmanlık birikimini artırırken, etkili bir olay yanıtı için de gereklidir. DFIR ekipleri, doğru iletişim kanallarını kurmalı, bilgileri paylaşmalı ve birlikte çalışarak hızlı ve etkili bir şekilde olayı çözümlemelidir.
 
-9) Etik İlkeler ve Mahremiyet:
+8) Etik İlkeler ve Mahremiyet:
    
 DFIR çalışmaları, hassas ve kişisel verilerin bulunduğu sistemleri incelediği için etik ilkelerin ve mahremiyetin korunması önemlidir. DFIR uzmanları, etik standartlara uymalı, verilere izinsiz erişimden kaçınmalı ve veri gizliliği ve mahremiyetini korumak için gereken önlemleri almalıdır. Ayrıca, yasal gerekliliklere uymak ve kişisel bilgilerin yasalara uygun şekilde işlenmesini sağlamak da önemlidir.
 
-10) Süreç ve Dökümantasyon Yönetimi:
+9) Süreç ve Dökümantasyon Yönetimi:
 
 Süreç ve dökümantasyon yönetimi, DFIR çalışmalarının organize ve etkin bir şekilde yürütülmesini sağlayan önemli bir prensiptir.
 İnceleme sürecinin adımları, yapılan işlemler, alınan kararlar ve elde edilen sonuçlar ayrıntılı bir şekilde belgelenmelidir.  
