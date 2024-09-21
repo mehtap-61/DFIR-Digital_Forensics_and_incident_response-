@@ -1,3 +1,4 @@
+**REFERANSLAR**
 Digital Forensics and Incident Response (DFIR) Fundamentals by SANS Institute, accessed on 25 June 2023, https://www.sans.org/cyber-security-courses/digital-forensics-and-incident-response-fundamentals/ <br/>
 What is DFIR?, accessed on 25 June 2023, https://www.fireeye.com/services/digital-forensics-and-incident-response.html  <br/>
 https://mergenpro.com/cozumlerimiz/dijital-adli-bilisim-olay-mudahalesi-dfir/  <br/>
