@@ -20,21 +20,34 @@ Sızma Testleri de DFIR’nin bir bölümüdür. Bu, kurumların dijital varlık
 6.  Organizasyonel İtibarın Korunması
 7.  Olaylardan Ders Çıkarmak ve Gelecekteki Olayları Önlemek
 8.  Kuruluşların Sürekli Faaliyetini Sağlamak
+   
+*DFIR'ın Temel İlkeleri*
 
-*DFIR ile alakalı bazı terimler*
+1) Kanıt Bütünlüğü:
 
-Artifacts: Artefaktlar, dijital sistemlerde faaliyetlerin izlerini veya kanıtlarını taşıyan verilerdir. Bu veriler, bir olayın analiz edilmesi ve ne olduğunu anlamak için kullanılır. 
+DFIR çalışmalarında kanıt bütünlüğü, en temel prensiplerden biridir. 
+Kanıt bütünlüğü, verilerin değiştirilmeden korunmasını ve orijinal durumlarının bozulmamasını sağlar.
+DFIR profesyonelleri, kanıtları korumak için özel araçlar ve prosedürler kullanmalı, doğru zincirleme (chain of custody) protokollerini takip etmeli ve verilere müdahale etmeden önce tüm gerekli adımları atmalıdır.
 
-*Artefaktlar, şunları içerebilir:*
+3) İzlenebilirlik:
+   
+DFIR çalışmaları sırasında, yapılan işlemler ve alınan kararlar ayrıntılı bir şekilde belgelenmelidir. İzlenebilirlik, inceleme sürecinin baştan sona takip edilebilir ve doğrulanabilir olmasını sağlar. Her adımın, kullanılan araçların, alınan kararların ve yapılan analizlerin belgelenmesi, diğer uzmanlar veya mahkemeler tarafından incelenebilirliği artırır. İzlenebilirlik aynı zamanda gerçekleştirilen süreçlerin tekrarlanabilir olmasını sağlar ve gelecekteki benzer olaylara daha hızlı ve etkili bir şekilde yanıt verilmesini sağlar.
 
-*Log Dosyaları: Sistem ve uygulama aktivitelerini kaydeden dosyalar.
+5) Delillerin Toplanması:
+   
+DFIR sürecinde, delillerin doğru bir şekilde toplanması ve korunması kritik öneme sahiptir. Deliller, olayın tespit edilmesi, analiz edilmesi ve sonuçlandırılması için kullanılır. Bu nedenle, delillerin toplanması, uygun prosedürler ve yöntemler kullanılarak yapılmalıdır. Delillerin toplanması sırasında, ilgili verilerin yanı sıra zaman damgaları, dosya bütünlüğü ve diğer meta veriler gibi önemli bilgiler de dikkate alınmalıdır. DFIR uzmanları, delillerin doğru şekilde belgelenmesi ve etiketlenmesi için zincirleme protokollere sıkı sıkıya uymalıdır.
 
-*Geçici Dosyalar: Kullanıcı ve sistem aktiviteleri sırasında oluşturulan geçici veriler.
+6) Sürekli Eğitim ve Teknoloji Takibi:
+   
+DFIR alanı sürekli olarak gelişen bir alandır. Yeni tehditler, saldırı yöntemleri ve teknolojik gelişmeler ortaya çıktıkça, DFIR uzmanları da kendilerini güncel tutmalıdır. Sürekli eğitim ve teknoloji takibi, güncel tehditleri anlamak, yeni analiz tekniklerini öğrenmek ve en son araştırma ve araçları kullanmak için önemlidir. DFIR uzmanları, sektördeki gelişmeleri yakından takip etmeli, katılım sağladıkları konferanslar ve eğitimler aracılığıyla bilgilerini güncellemelidir.
 
-*Bellek Dumpları: Bir sistemin belleğinde o an yer alan bilgilerin dökümü.
+7) İşbirliği ve Koordinasyon:
+DFIR çalışmaları genellikle çok disiplinli ve çok paydaşlı bir süreçtir. Bir olaya yanıt verirken, farklı ekipler, kurumlar veya ajanslar arasında işbirliği ve koordinasyon önemlidir. İşbirliği, bilgi paylaşımını, tecrübe ve uzmanlık birikimini artırırken, etkili bir olay yanıtı için de gereklidir. DFIR ekipleri, doğru iletişim kanallarını kurmalı, bilgileri paylaşmalı ve birlikte çalışarak hızlı ve etkili bir şekilde olayı çözümlemelidir.
 
-*Dosya Sistemleri: Dosyaların, dizinlerin ve meta verilerin analizi.
+8) Etik İlkeler ve Mahremiyet
+DFIR çalışmaları, hassas ve kişisel verilerin bulunduğu sistemleri incelediği için etik ilkelerin ve mahremiyetin korunması önemlidir. DFIR uzmanları, etik standartlara uymalı, verilere izinsiz erişimden kaçınmalı ve veri gizliliği ve mahremiyetini korumak için gereken önlemleri almalıdır. Ayrıca, yasal gerekliliklere uymak ve kişisel bilgilerin yasalara uygun şekilde işlenmesini sağlamak da önemlidir.
 
-*Tarayıcı Geçmişi: Kullanıcıların internet tarayıcı aktivitelerinin kayıtları.
+9) Süreç ve Dökümantasyon Yönetimi
+DFIR çalışmaları sırasında süreç ve dökümantasyon yönetimi de önemli bir prensiptir. İnceleme sürecinin adımları, yapılan işlemler, alınan kararlar ve elde edilen sonuçlar ayrıntılı bir şekilde belgelenmelidir. Bu, ilerideki adli süreçlerde kullanılacak olan delillerin güvenilirliğini sağlarken, takip edilebilirlik ve tekrarlanabilirlik açısından da önemlidir. Süreç ve dökümantasyon yönetimi, DFIR çalışmalarının organize ve etkin bir şekilde yürütülmesini sağlar.
 
-*E-posta Kayıtları: Gönderilen ve alınan e-postaların kayıtları.
+
