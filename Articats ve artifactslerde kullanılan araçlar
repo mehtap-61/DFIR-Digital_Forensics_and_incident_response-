@@ -1,0 +1,26 @@
+**Artifacts (Artefaktlar)**
+
+Artefaktlar, dijital sistemlerde faaliyetlerin izlerini veya kanıtlarını taşıyan verilerdir ve bu veriler sayesinde bir olayın analiz edilmesi ve ne olduğunun anlaşılır.
+
+*Artefaktlar, şunları içerebilir?*
+
+*Log Dosyaları: Sistem ve uygulama aktivitelerini kaydeden dosyalar.
+*Geçici Dosyalar: Kullanıcı ve sistem aktiviteleri sırasında oluşturulan geçici veriler.
+*Bellek Dumpları: Bir sistemin belleğinde o an yer alan bilgilerin dökümü.
+*Dosya Sistemleri: Dosyaların, dizinlerin ve meta verilerin analizi.
+*Tarayıcı Geçmişi: Kullanıcıların internet tarayıcı aktivitelerinin kayıtları.
+*E-posta Kayıtları: Gönderilen ve alınan e-postaların kayıtları.
+
+Artifactlerin efendisi Eric Zimmermandır.
+Windows platformunda adli bilişim analizlerini gerçekleştirmek için çeşitli araçlar geliştirmiş bir güvenlik araştırmacısıdır.
+Bu araçlar, kayıt defteri (registry), dosya sistemi, zaman çizelgesi ve diğer analizler için kullanılır. 
+
+Artifactlerde kullanılan  bazı araçlar:
+
+-Registry Explorer: Windows kayıt defterini analiz etmek için kullanılır. 
+Kayıt defteri anahtarlarını ve değerlerini görüntüleyebilir, arama yapabilir ve analiz edebilir.
+-RECmd: Kayıt defteri komut satırı aracı, toplu iş dosyaları veya scriptler ile kayıt defteri analizlerini otomatikleştirmek için kullanılır.
+-Timeline Explorer: Zaman çizelgesi verilerini görselleştirmek ve analiz etmek için kullanılır. 
+Farklı olayları zaman sırasına göre sıralar ve detaylı analizler yapılmasına olanak tanır.
+-ShellBags Explorer: ShellBags verilerini analiz etmek için kullanılır. 
+Bu veriler, bir kullanıcının dosya gezgini (Windows Explorer) kullanarak hangi klasörlere eriştiğini gösterir.
