@@ -3,4 +3,4 @@ What is DFIR?, accessed on 25 June 2023, https://www.fireeye.com/services/digita
 https://mergenpro.com/cozumlerimiz/dijital-adli-bilisim-olay-mudahalesi-dfir/
 https://mergenpro.com/cozumlerimiz/dijital-adli-bilisim-olay-mudahalesi-dfir/
 https://www.cozumpark.com/dfir-digital-forensics-and-incident-response-temel-ilkeleri/Access date: https://www.cozumpark.com/dfir-digital-forensics-and-incident-response-temel-ilkeleri/
-
+https://medium.com/@iremdamar0/dfir-nedi%CC%87r-4f95ec6186fc
