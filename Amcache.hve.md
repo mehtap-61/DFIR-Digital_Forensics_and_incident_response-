@@ -16,6 +16,8 @@ Dosyanın bir kopyasını alabilmek için Raw Copy, KAPE, FTK gibi toollar kulla
 
 WinDev2407Eval-VMware Workstation programı ile yaptığım Amcache uygu8laması aşağıda görülmektedir.
 
+<img width="800" alt="amcache_uygulamasi" src="https://github.com/user-attachments/assets/2eb2bed1-54ee-419f-b0d6-da076c9af79d">
+
 
 
 
