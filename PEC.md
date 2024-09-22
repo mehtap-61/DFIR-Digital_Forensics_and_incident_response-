@@ -6,8 +6,14 @@ Prefetch dosyaları, aynı zamanda dijital adli incelemelerde, çalıştırılm�
 Burada amaç uygulamayı en kısa sürede açmak için optimize etmektir.<br/>
 Dosya adı, yolu, kaç kez çalıştırıldığı, son çalıştırılma zamanı gibi bilgiler yer almaktadır.<br/>
 
+Prefetch olarak  yaptığım uygulama aşagıda görülmektedir. Süpheli duygugumuz bu dosya icin ilk basta ilgili dosyada cmd yapıp ilgil komand sayfası açıldı. Komand sayfasında aşağıda görülen şeklide --csv yeni dosya adı ile kaydedilip aşağıda görülen ikinci fotograftada bu klasör oluştu. Dosyanın içindeki csv dosyaları da üçüncü resimde görülmektedir.
 
 ![PECmd](https://github.com/user-attachments/assets/bb548cc1-d05c-4478-aaa6-1458a4d1033b) 
+
+
+
+![PEC_md_dosyasının_yeni_dosyada_olusumu](https://github.com/user-attachments/assets/35c1bfcf-ee82-43f3-b71b-2e57c3f7e478)
+
 
 
 
