@@ -6,8 +6,10 @@ Bir uygulama tekrar çalıştırıldığında, bu bilgiler kullanılarak daha h�
 Prefetch dosyaları, aynı zamanda dijital adli incelemelerde, çalıştırılmış uygulamaların izlerini bulmak için kullanılır.<br/>
 Burada amaç uygulamayı en kısa sürede açmak için optimize etmektir.<br/>
 Dosya adı, yolu, kaç kez çalıştırıldığı, son çalıştırılma zamanı gibi bilgiler yer almaktadır.<br/>
+Prefetch için PEC.exe dosyası üzerinden ilgili dosyaların analiz uygulması csv uzantısı ile komand satırı üzerinden yapılır.
 
-Prefetch olarak  yaptığım uygulama aşagıda görülmektedir. 
+Prefetch olarak  PEC.exe dosyası için yaptığım uygulama aşagıda görülmektedir. 
+
 Süpheli  dosya icin ilk basta ilgili dosyada cmd yazıp ilgil komand sayfası açıldı. 
 Komand sayfasında aşağıda görülen şeklide --csv yeni dosya adı ile kaydedilip aşağıda görülen ikinci fotograftada bu klasör oluştu. 
 Dosyanın içindeki csv dosyaları da üçüncü resimde görülmektedir. <br/>
