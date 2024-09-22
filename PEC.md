@@ -6,3 +6,6 @@ Prefetch dosyaları, aynı zamanda dijital adli incelemelerde, çalıştırılm�
 Burada amaç uygulamayı en kısa sürede açmak için optimize etmektir.<br/>
 Dosya adı, yolu, kaç kez çalıştırıldığı, son çalıştırılma zamanı gibi bilgiler yer almaktadır.<br/>
 
+![PECmd](https://github.com/user-attachments/assets/bb548cc1-d05c-4478-aaa6-1458a4d1033b)
+
+
