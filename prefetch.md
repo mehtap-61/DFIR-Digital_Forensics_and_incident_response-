@@ -1,4 +1,4 @@
-**prefetch** <br/>
+**Prefetch** <br/>
 
 Windows işletim sisteminde, uygulamaların daha hızlı çalıştırılmasını sağlamak için kullanılan bir dosya önbellekleme mekanizmasıdır.<br/>
 ilk kez çalıştırıldığında onunla ilgili dosya ve kaynak bilgilerini bir Prefetch dosyasına kaydeder.<br/>
