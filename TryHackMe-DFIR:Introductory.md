@@ -50,11 +50,11 @@ Dijital Adli Tıp ve Olay Müdahalesi alanları birbirlerine oldukça bağımlı
 Olay Müdahalesi, Dijital Adli Tıptan elde edilen bilgilerden yararlanır.
 Benzer şekilde, Dijital Adli Tıp hedeflerini ve kapsamını Olay Yanıtı sürecinden alır ve IR süreci adli soruşturmanın kapsamını tanımlar.
 
-*DFIR ne anlama gelmektedir?*
+**DFIR ne anlama gelmektedir?**
 
 **Cevap:** Digital Forensics and Incident Response(Dijital Adli Tıp ve Olay Yanıtı)
 
-*DFIR iki alanda uzmanlık gerektirmektedir. Alanlardan biri Dijital Adli Tıp. Diğer alan nedir?*
+**DFIR iki alanda uzmanlık gerektirmektedir. Alanlardan biri Dijital Adli Tıp. Diğer alan nedir?**
 
 **Cevap:** Incident Response (Olay Yanıtı)
 
