@@ -1,4 +1,5 @@
 **DFIR: An Introduction**
+
 **Görev1-Giriş**
 
 ![Giriş](https://github.com/user-attachments/assets/59390f1b-d91e-454a-9240-e0337cc6f517)
@@ -11,16 +12,19 @@ Bu nedenle, Dijital Adli Tıp ve Olay Müdahalesi (DFIR), Savunmacı Güvenlikte
 Bu odada, DFIR'ın bazı temel kavramlarını ele alındı ve DFIR bilgimizi genişleten tanıtıldı. 
 
 Oda aşağıdaki konuları kapsamaktadır:
+
 •	DFIR'a Giriş
 •	DFIR alanında kullanılan bazı temel kavramlar
 •	Sektörde kullanılan Olay Müdahale süreçleri
 •	DFIR için kullanılan araçlardan bazıları
+
 ![1 soru_cevap](https://github.com/user-attachments/assets/5bff2303-ee4e-4157-a228-b55309950321)
  
 *DFIR nedir?*
 Daha önce de belirtildiği gibi DFIR, Dijital Adli Tıp ve Olay Müdahalesi anlamına gelmektedir. 
 Bu alan, bir olayı araştırmak için bilgisayarlar, medya cihazları ve akıllı telefonlar gibi dijital cihazlardan adli belgelerin toplanmasını kapsar.
 Bu alan, güvenlik uzmanlarının bir güvenlik olayı meydana geldiğinde bir hacker tarafından bırakılan ayak izlerini belirlemelerine, bunları bir ortamdaki tehlikenin boyutunu belirlemek için kullanmalarına ve ortamı olay meydana gelmeden önceki durumuna geri getirmelerine yardımcı olur.
+
 *DFIR'a duyulan ihtiyaç*
 
 DFIR güvenlik uzmanlarına çeşitli şekillerde yardımcı olur, bunlardan bazıları aşağıda özetlenmiştir:
@@ -31,7 +35,7 @@ Bir ihlalin kapsamını ve zaman dilimini belirleme.
 Bu, ilgili paydaşlarla iletişim kurmaya yardımcı olur.
 İhlale yol açan boşlukları bulmak.
 Gelecekte ihlali önlemek için nelerin değiştirilmesi gerekiyor?
-Hackerin daha fazla izinsiz giriş girişimini önceden engellemek için saldırgan davranışının anlaşılması.
+Hackerin daha fazla izinsiz giriş girişimini önceden engellemek için hackerin davranışının anlaşılması.
 Hacker hakkındaki bilgilerin toplulukla paylaşılması.
 
 *DFIR'ı kim gerçekleştirir?*
@@ -39,22 +43,23 @@ Hacker hakkındaki bilgilerin toplulukla paylaşılması.
 ![dfır_kim](https://github.com/user-attachments/assets/cfef3981-5cdc-4c72-a4db-544fc01ec54b)
 
 Adından da anlaşılacağı üzere, DFIR hem Dijital Adli Tıp hem de Olay Yanıtı alanlarında uzmanlık gerektirir.
+
 Bu iki alanı bu şekilde ayırırsak, bir DFIR uzmanı olmak için aşağıdaki beceri setine ihtiyaç vardır:
 
 *Dijital Adli Tıp*: Bu profesyoneller, dijital cihazlardaki adli eserleri veya insan faaliyeti kanıtlarını tanımlama konusunda uzmandır. 
 
-*Olay Yanıtı*: Olay yanıtı uzmanları siber güvenlik konusunda uzmandır ve güvenlik perspektifinden ilgilenilen faaliyeti belirlemek için adli tıp bilgilerinden yararlanırlar.
+*Olay Yanıtı*: Olay yanıtı uzmanları siber güvenlik konusunda uzmandır ve güvenlik perspektifinden ilgilenilen faaliyeti belirlemek için adli bilişim bilgilerinden yararlanırlar.
 
-*DFIR uzmanları*:  Dijital Adli Tıp ve siber güvenlik hakkında bilgi sahibidir ve hedeflerine ulaşmak için bu alanları birleştirirler. 
-Dijital Adli Tıp ve Olay Müdahalesi alanları birbirlerine oldukça bağımlı oldukları için genellikle birleştirilirler. 
+*DFIR uzmanları*:  Dijital Adli Bilişim ve siber güvenlik hakkında bilgi sahibidir ve hedeflerine ulaşmak için bu alanları birleştirirler. 
+Dijital Adli Bilişim  ve Olay Müdahalesi alanları birbirlerine oldukça bağımlı oldukları için genellikle birleştirilirler. 
 Olay Müdahalesi, Dijital Adli Tıptan elde edilen bilgilerden yararlanır.
 Benzer şekilde, Dijital Adli Tıp hedeflerini ve kapsamını Olay Yanıtı sürecinden alır ve IR süreci adli soruşturmanın kapsamını tanımlar.
 
 **DFIR ne anlama gelmektedir?**
 
-**Cevap:** Digital Forensics and Incident Response(Dijital Adli Tıp ve Olay Yanıtı)
+**Cevap:** Digital Forensics and Incident Response (Dijital Adli Bilişim ve Olay Yanıtı)
 
-**DFIR iki alanda uzmanlık gerektirmektedir. Alanlardan biri Dijital Adli Tıp. Diğer alan nedir?**
+**DFIR iki alanda uzmanlık gerektirmektedir. Alanlardan biri Dijital Adli Bilişim. Diğer alan nedir?**
 
 **Cevap:** Incident Response (Olay Yanıtı)
 
@@ -63,6 +68,7 @@ Benzer şekilde, Dijital Adli Tıp hedeflerini ve kapsamını Olay Yanıtı sür
 **Görev 3:DFIR’ın temel kavramları**
 
 **Artefaktlar:**
+
 Artefaktlar, bir sistem üzerinde gerçekleştirilen bir faaliyete işaret eden kanıt parçalarıdır.
 DFIR gerçekleştirilirken, artifaktlar saldırgan faaliyeti hakkındaki bir hipotezi veya iddiayı desteklemek için toplanır. 
 Örneğin, hackerin bir sistemde kalıcılığı sağlamak için Windows kayıt defteri anahtarlarını kullandığını iddia edeceksek, iddiamızı desteklemek için söz konusu kayıt defteri anahtarını kullanabiliriz.
@@ -70,66 +76,100 @@ Bu durumda, söz konusu kayıt defteri anahtarı bir obje olarak kabul edilecekt
 Artefakt toplama bu nedenle DFIR sürecinin önemli bir parçasıdır. 
 Artefaktlar Uç Nokta veya Sunucunun dosya sisteminden, belleğinden veya ağ etkinliğinden toplanabilir.
 Çoğu zaman, kurumsal ortamlar çoğunlukla Windows ve Linux İşletim Sistemlerinden oluşur.
+
 Bu İşletim Sistemlerindeki adli eserler hakkında daha fazla bilgi edinmek için Windows Forensics 1, Windows Forensics 2 veya Linux Forensics odasına gidebilirsiniz. 
+
 Windows sistemleri öncelikle Active Directory Etki Alanı Denetleyicileri veya MS Exchange e-posta sunucuları gibi uç noktalar ve sunucu kullanım durumları için kullanılır. 
+
 Şirketler Linux sistemlerini öncelikle web sunucuları veya veritabanı sunucuları gibi bazı hizmetleri barındıran sunucular olarak kullanmaktadır.
 
 *Evidence Preservation (Kanıtların Korunması):*
 
 DFIR gerçekleştirirken, topladığımız kanıtların bütünlüğünü korumalıyız. 
+
 Bu nedenle sektörde bazı en iyi uygulamalar belirlenmiştir. Herhangi bir adli analizin delilleri kirlettiğini unutmamalıyız.
+
 Bu nedenle, kanıtlar önce toplanır ve yazmaya karşı korunur. Ardından, yazmaya karşı korumalı kanıtın bir kopyası analiz için kullanılır. 
+
 Bu süreç, orijinal kanıtımızın kirlenmemesini ve analiz sırasında güvende kalmasını sağlar. 
+
 İnceleme altındaki kopyamız bozulursa, her zaman geri dönebilir ve koruduğumuz kanıtlardan yeni bir kopya oluşturabiliriz.
 
 *Chain of custody (Gözetim zinciri):*
 
 Kanıtların bütünlüğünü korumanın bir diğer kritik yönü de gözetim zinciridir. 
+
 Kanıt toplandığında, güvenli bir şekilde muhafaza edildiğinden emin olunmalıdır. 
+
 Soruşturmayla ilgisi olmayan herhangi bir kişi delile sahip olmamalıdır, aksi takdirde delilin gözetim zinciri kirlenecektir. 
+
 Kirlenmiş bir gözetim zinciri, verilerin bütünlüğü hakkında soru işaretleri doğurur ve çözülemeyecek bilinmeyen değişkenler ekleyerek oluşturulmakta olan davayı zayıflatır. 
+
 Örneğin, bir sabit disk imajının, imajı alan kişiden analizi gerçekleştirecek kişiye aktarılırken, bu tür bir kanıtı kullanma yetkisi olmayan bir kişinin eline geçtiğini varsayalım.
+
 Bu durumda, bu kişinin delili doğru bir şekilde ele alıp almadığından ve dolayısıyla kendi faaliyetleriyle delili kirletip kirletmediğinden emin olamayız.
 
 *Order of volatility (Uçuculuk sırası):*
 
 Dijital kanıtlar genellikle uçucudur, yani zamanında yakalanmazsa sonsuza kadar kaybolabilir.
+
 Örneğin, bir bilgisayar sisteminin belleğindeki (RAM) veriler bilgisayar kapatıldığında kaybolacaktır.
+
 Çünkü RAM verileri yalnızca açık kaldığı sürece saklar. 
+
 Bazı kaynaklar diğerlerine kıyasla daha uçucudur.
+
 Örneğin, bir sabit disk kalıcı bir depolama alanıdır ve güç kesilse bile verileri korur. Bu nedenle sabit disk RAM'den daha az uçucudur.
+
 DFIR gerçekleştirirken, farklı kanıt kaynaklarının uçuculuk sırasını anlamak ve buna göre yakalamak ve muhafaza etmek hayati önem taşır. 
+
 Yukarıdaki örnekte, öncelik vermediğimiz takdirde RAM'deki verileri kaybedebileceğimiz için sabit sürücüyü korumadan önce RAM'i korumamız gerekecektir.
 
 *Timeline creation (Zaman çizelgesi oluşturma):*
 
 Eserleri topladıktan ve bütünlüklerini koruduktan sonra, içerdikleri bilgileri tam olarak kullanabilmek için bunları anlaşılır bir şekilde sunmamız gerekir.
+
 Etkili ve doğru analiz için bir olaylar zaman çizelgesi oluşturulmalıdır.
+
 Bu olaylar zaman çizelgesi tüm faaliyetleri kronolojik sıraya koyar.
+
 Bu faaliyete zaman çizelgesi oluşturma adı verilir.
+
 Zaman çizelgesi oluşturma, soruşturmaya bir perspektif kazandırır ve olayların nasıl gerçekleştiğine dair bir hikaye oluşturmak için çeşitli kaynaklardan gelen bilgilerin harmanlanmasına yardımcı olur. 
+
 Şimdi, zaman çizelgesi oluşturma pratiği yapmak ve ilk soruyu yanıtlamak için ekteki statik siteyi görüntüleyelim.
+
 Bunu yapmak için, bu görevin sağ üst köşesindeki Siteyi Görüntüle düğmesine tıklayın.
 
 ![link](https://github.com/user-attachments/assets/3b6cf976-59bc-430e-861b-58c499f31183)
 
 **RAM ve sabit disk arasından hangi depolama birimi daha uçucudur?**
+
 **Cevap:** RAM
 
-**Ekteki statik sitede zaman çizelgesi oluşturma alıştırmasını tamamlayın. Tamamladıktan sonra aldığınız bayrak nedir?**
+**Ekteki statik sitede zaman çizelgesi oluşturma alıştırmasını tamamlayın. 
+Tamamladıktan sonra aldığınız bayrak nedir?**
+
 **Cevap:** THM{DFIR_REPORT_DONE}
 
 **Görev 4: DFIR Tools**
+
 Güvenlik sektörü, DFIR sürecine yardımcı olmak için çeşitli heyecan verici araçlar geliştirmiştir. 
+
 Bu araçlar değerli zamandan tasarruf edilmesine ve güvenlik uzmanlarının yeteneklerinin geliştirilmesine yardımcı olur. 
+
 Şimdi bu araçlardan bazıları hakkında bilgi edinelim. 
+
 Bu araçlar hakkında daha fazla bilgi edinmek için TryHackMe'deki bu araçların odalarına göz atabilirsiniz.
 
 ![Eric_Zimmerman_tool](https://github.com/user-attachments/assets/866491c6-a0b8-4bf9-ba62-a9d336280939)
 
 Eric Zimmerman, Windows platformunda adli analiz gerçekleştirmeye yardımcı olmak için birkaç araç yazmış bir güvenlik araştırmacısıdır.
+
 Bu araçlar kayıt defteri, dosya sistemi, zaman çizelgesi ve diğer birçok analize yardımcı olur. 
-Bu araçlar hakkında daha fazla bilgi edinmek için, bu araçların Windows İşletim Sisteminde bulunan farklı eserlerle ilgili olarak tartışıldığı Windows Forensics 1 ve Windows Forensics 2 odalarına göz atabilirsiniz.
+
+Bu araçlar hakkında daha fazla bilgi edinmek için, bu araçların Windows İşletim Sisteminde bulunan farklı eserlerle ilgili olarak tartışıldığı Windows 
+Forensics 1 ve Windows Forensics 2 odalarına göz atabilirsiniz.
 
 ![KAPE](https://github.com/user-attachments/assets/b06ab482-90b2-44a9-b3e0-d1d4fbd3cbce)
 
@@ -189,36 +229,57 @@ El kitabı adımları aşağıdaki gibi tanımlamaktadır:
 •	Çıkarılan Dersler
 
 SANS tarafından tanımlanan adımlar genellikle PICERL kısaltması ile özetlenerek hatırlanmaları kolaylaştırılmıştır. 
+
 SANS ve NIST tarafından belirtilen adımların aynı olduğunu görebiliriz. 
+
 NIST Sınırlama, Yok Etme ve Kurtarma adımlarını bir araya getirirken SANS bunları farklı adımlara ayırmaktadır. 
+
 Olay sonrası faaliyet ve alınan dersler karşılaştırılabilirken, Tanımlama ve Tespit ve Analiz aynı etkilere sahiptir.
+
 Şimdi iki sürecin benzer olduğunu anladığımıza göre farklı adımların ne anlama geldiğini kısaca öğrenelim.
+
 PICERL adımlarını, kısaltma ile hatırlanması daha kolay olduğu için açıklıyoruz, ancak yukarıda açıklandığı gibi, NIST tarafından tanımlanan adımlarla aynıdır.
 
 ![NIST_adimlari](https://github.com/user-attachments/assets/23d5712d-585b-4d79-b1c5-f0168b6127c5)
 
 **Preparation (Hazırlık):** Bir olay meydana gelmeden önce, bir olay durumunda herkesin hazır olması için hazırlık yapılması gerekir.
+
 Hazırlık, olayları önlemek ve olaylara müdahale etmek için gerekli kişilere, süreçlere ve teknolojiye sahip olmayı içerir.
+
 **Identification(Tanımlama):** Tanımlama aşamasında bazı göstergeler aracılığıyla bir olay tespit edilir.
+
 Bu göstergeler daha sonra Yanlış Pozitifler için analiz edilir, belgelenir ve ilgili paydaşlara iletilir.
+
 **Containment (Muhafaza altına alma):** Bu aşamada olay kontrol altına alınır ve etkilerinin sınırlandırılması için çaba gösterilir. 
+
 Bu aşamanın bir parçası olacak olayın adli analizine dayalı olarak tehdidi kontrol altına almak için kısa ve uzun vadeli düzeltmeler olabilir.
+
 **Eradication(Yok etme):** 
+
 Ardından, tehdit ağdan ortadan kaldırılır.
+
 Ortadan kaldırmadan önce uygun bir adli analiz yapıldığından ve tehdidin etkili bir şekilde kontrol altına alındığından emin olunmalıdır.
+
 Örneğin, tehdit aktörünün ağa giriş noktası tıkanmazsa, tehdit etkili bir şekilde ortadan kaldırılamaz ve aktör yeniden bir yer edinebilir.
+
 **Recovery(Geri kazanım):**
+
 Tehdit ağdan kaldırıldıktan sonra, kesintiye uğrayan hizmetler olay meydana gelmeden önceki haline geri getirilir.
+
 **Lessons Learned(Çıkarılan Dersler):**
+
 Son olarak, olayın bir incelemesi yapılır, olay belgelenir ve ekibin bir dahaki sefere daha iyi hazırlanmasını sağlamak için olaydan elde edilen bulgulara dayalı adımlar atılır.
 
 **IR sürecinin hangi aşamasında kesintiye uğrayan hizmetler olaydan önceki haliyle tekrar çevrimiçi hale getirilir?**
+
 **Cevap:** Recovery (Geri kazanım)
 
 **Adli analiz gerçekleştirildikten sonra tehdit, IR sürecinin hangi aşamasında ağdan çıkarılır?**
+
 **Cevap:** Eradication (Yok etme)
 
 **SANS sürecinde “Alınan Dersler” olarak adlandırılan adımın NIST'teki karşılığı nedir?**
+
 **Cevap:** Post-incident Activity
 
 **Görev 6-Conclusion(Sonuç)**
