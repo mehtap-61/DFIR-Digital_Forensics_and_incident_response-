@@ -487,7 +487,9 @@ Log Viewer aracını kullanarak ayrıştırılmamış ham günlük dosyalarını
 NOT: URL'ye AttackBox veya VM tarayıcısını kullanarak erişebilirsiniz. Ancak, lütfen VM'deki Firefox'un başlatılmasının birkaç dakika sürebileceğini unutmayın.
 
 **Ayrıştırılmış ve Birleştirilmiş Log Dosyası**
+
 Ayrıştırılmış ve birleştirilmiş bir günlük dosyası oluşturmak için cat, grep, sed, sort, uniq ve awk gibi Unix araçlarının bir kombinasyonunu kullanabilirsiniz. İşte adım adım bir kılavuz:
+
 1.	Log  girişlerini istenen biçime normalleştirmek için awk ve sed kullanın. Bu örnek için tarihe ve saate göre sıralayacağız:
 ![proses_giris](https://github.com/user-attachments/assets/ec4606bb-54f7-4068-a31a-505bd730a1be)
 
@@ -507,14 +509,31 @@ Ancak, VM'deki Firefox'un başlatılmasının birkaç dakika sürebileceğini l�
 
 ** Ayrıştırılmamış ham kayıtk dosyaları için kayıt görüntüleyici URL'sine erişildiğinde, farklı filtreler seçildiğinde
 "/var/log/websrv-02/rsyslog_cron.log" hangi hatayı gösteriyor?**
+
 **Cevap:**: No date field
 
 ** Ayrıştırılmış verilerin daha kolay okunabilir ve sorgulanabilir bir biçime standartlaştırılması süreci nedir?**
+
 **Cevap**: Normalisation
 
 ** Belirli bir IP adresine ilişkin faaliyetlerin analizini geliştirmek için normalleştirilmiş günlükleri birleştirme süreci nedir?**
+
 **Cevap:** Enrichment
 
+Lütfen bu sorunun cevabını almak için yukarıdaki açıklamayı okuyun.
 
+Tebrikler! Logs Giriş odasını tamamladınız.
+
+Özetle, aşağıdakileri öğrenebildik ve uygulayabildik:
+
+Geçmiş faaliyetlerin kayıtları olarak logların önemi; tehditleri belirlemek ve ele almak için olmazsa olmaz.
+
+Bir dizi log'u, bunların oluşturma tekniklerini ve bunları çeşitli sistemlerden toplama yöntemlerini inceleyin.
+
+Log'ları algılama mühendisliği ve olay yönetimi alanlarında analiz ederek elde edilen sonuçları inceleyin.
+
+Log analizi yoluyla saldırganları belirleme ve onlara karşı koyma konusunda pratik beceriler edinin.
+
+Bu güvenlik araçlarının, potansiyel tehditlerle mücadele etmek ve güvenlik olaylarını yönetmek için gerekli bilgi ve teknik uzmanlığa sahip yetenekli kişilerin elinde gerçekten geliştiğini kabul etmek hayati önem taşır.
 
 
