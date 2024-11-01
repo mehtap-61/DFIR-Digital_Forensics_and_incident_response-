@@ -1,4 +1,4 @@
-**Intro to Logs(Log(kayıt) giriş)**
+**Intro to Logs**
 
 *Görev 1-Giriş*
 
