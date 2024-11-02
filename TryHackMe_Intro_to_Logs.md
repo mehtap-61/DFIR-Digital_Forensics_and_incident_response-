@@ -24,7 +24,10 @@ Bu verimlilik, olası olayların veya önemli olayların hızlı bir şekilde te
 
 Logları tarihsel faaliyetlerin kayıtları olarak analiz ederek, bireyler ve kuruluşlar temel bilgiler edinebilir, çok çeşitli durumlarda genel farkındalıklarını ve hazırlıklarını artırabilirler.
 
-Logların, olası tehditleri belirlemek ve azaltmak için tarihsel bir etkinlik kaydı olarak önemini anlayın. Birden fazla platformda çeşitli günlük türlerini, günlük mekanizmalarını ve toplama yöntemlerini keşfedin. Log analizi yoluyla saldırganları tespit etme ve yenme konusunda uygulamalı deneyim kazanın.
+Logların, olası tehditleri belirlemek ve azaltmak için tarihsel bir etkinlik kaydı olarak önemini anlayın. 
+Birden fazla platformda çeşitli günlük türlerini, günlük mekanizmalarını ve toplama yöntemlerini keşfedin.
+
+Log analizi yoluyla hackerleri tespit etme ve yenme konusunda uygulamalı deneyim kazanın.
 
 **Tavsiye edilen okuma*
 
@@ -43,6 +46,7 @@ Senaryo: SwiftSpend Financial'ın bir web sunucusu, sürekli olarak bir saldırg
 Bu ikilemi ele almakla görevli bu kuruluşun sistem yöneticisi olarak, günlükleri yapılandırarak ve toplanan günlükleri analiz ederek saldırganın ne yaptığını belirlemelisiniz.
 
 ÖNEMLİ: damianhall kullanıcısı sınırlı sudo ayrıcalıklarına sahiptir. 
+
 Bu kullanıcı tarafından hangi komutların çalıştırılabileceğini kontrol etmek için sudo -l komutunu verin.
 Bu sınırlı komutlar, sonraki görevleri tamamlamak için gereken tek şeydir.
 
