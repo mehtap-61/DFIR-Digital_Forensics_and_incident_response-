@@ -1,6 +1,6 @@
 **Intro to Logs**
 
-*Görev 1-Giriş*
+*Görev 1-Giriş**
 
 Kötü niyetli faaliyetleri nasıl tespit edebiliriz?
 
